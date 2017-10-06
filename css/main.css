@@ -1,0 +1,162 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+header {
+    text-align: center;
+    padding-left: 80px;
+}
+
+body {
+    font: 1em/1.67 'Open Sans', Arial, Sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #a9a8a8;
+    font-family: Gotham;    
+}
+
+.wrapper {
+    width: 95%;
+    margin: 3em auto;
+}
+
+.masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img{
+    width: 100%;    
+    filter: grayscale(1);
+    transition-property: filter;
+	transition-duration: .3s;	
+} 
+img:hover {
+	filter: grayscale(0);
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Gotham Ultra';
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 0.8em;
+    text-align: left;
+    color: #a9a8a8;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src:  url('/fonts/Gotham.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src:  url('/fonts/Gotham Ultra.otf') format('truetype');
+}
+
+@media only screen and (min-width: 400px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .masonry {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .wrapper {
+        width: 1260px;
+    }
+}
